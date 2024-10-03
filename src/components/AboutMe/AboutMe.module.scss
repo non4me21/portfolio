@@ -1,0 +1,43 @@
+@import '@/styles/variables.scss';
+
+.AboutMe {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  height: 100%;
+  aspect-ratio: 1/1;
+  max-height: 250px;
+  border-radius: 10px;
+  background-color: $componentBackground;
+  font-size: 14px;
+  filter: drop-shadow(0px 0px 30px trasparent);
+  transition: filter 0.2s ease-in;
+  overflow-y: hidden;
+
+  &:hover {
+    filter: drop-shadow(0px 0px 30px $componentShadowColor);
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #5e5e5e;
+    border-radius: 10px;
+  }
+
+  .Text {
+    overflow-y: auto;
+  }
+}

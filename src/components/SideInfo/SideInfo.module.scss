@@ -1,0 +1,78 @@
+@import '@/styles/variables.scss';
+
+.SideInfo {
+  background-color: $componentBackground;
+  height: 100%;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 50px;
+  filter: drop-shadow(0px 0px 30px trasparent);
+  transition: filter 0.2s ease-in;
+
+  &:hover {
+    filter: drop-shadow(0px 0px 30px $componentShadowColor);
+  }
+
+  a {
+    color: $white
+  }
+
+  .PhotoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 200px;
+      width: auto;
+    }
+  }
+
+  .Name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .Links {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .Links div a, .MainInfo div a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .Tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .Tab {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      padding: 10px 0px 10px 20px;
+      border: solid 1px $mainBackground;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: $mainBackground;
+        cursor: pointer;
+      }
+
+      &.Active {
+        background-color: $mainBackground;
+      }
+    }
+  }
+}
