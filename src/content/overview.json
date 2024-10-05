@@ -1,0 +1,192 @@
+{
+  "AboutMe": {
+    "title": "About Me",
+    "content": " I am a Fullstack Developer with experience in Django (Python) and Next.js/React.js. I am passionate about creating fast, accessible applications that delight users and meet their needs. Named Time magazine's Person of the Year in 2006"
+  },
+  "Education": {
+    "title": "Education",
+    "listItems": [
+      {
+        "label": "Master's Degree @ Wroclaw University of Economics and Business",
+        "description": [
+          "October 2023 - present",
+          "Business Informatics"
+        ]
+      },
+      {
+        "label": "Bachelor's Degree in Engineering @ Wroclaw University of Science and Technology",
+        "description": [
+          "October 2019 - January 2023",
+          "Systems Engineering"
+        ]
+      }
+    ]
+  },
+  "WorkExperience": {
+    "title": "Work Experience",
+    "listItems": [
+      {
+        "label": "Fullstack Developer @ FXMAG",
+        "description": [
+          "January 2024 - August 2024",
+          "Kraków - remote",
+          "In my position, I was responsible for creating innovative features such as currency calculators and stock market quotations. My duties included retrieving data from external sources, storing it in our databases, and implementing the full frontend for both desktop and mobile versions."
+        ]
+      },
+      {
+        "label": "Frontend Developer @ NOKIA",
+        "description": [
+          "October 2022 - December 2023",
+          "Wrocław - remote",
+          "I was responsible for developing new features for an internal tool supporting managers. My duties included creating advanced reports on test automation, presented in the form of interactive tables with filtering capabilities for large data sets and generating charts"
+        ]
+      },
+      {
+        "label": "Python Developer Intern @ NOKIA",
+        "description": [
+          "July 2022 - September 2023",
+          "Wrocław",
+          " I was responsible for creating efficient backend views for generating reports on test automation. My tasks included extracting data from databases and providing optimal views for analyzing and presenting detailed reports"
+        ]
+      }
+    ]
+  },
+  "TechStack": {
+    "techStackList": [
+      {
+        "sectionName": "Frontend",
+        "items": [
+          {
+            "name": "JavaScript",
+            "info": "JavaScript is a versatile, dynamic programming language commonly used for web development, enabling interactive features on websites."
+          },
+          {
+            "name": "TypeScript",
+            "info": "TypeScript is a superset of JavaScript that adds optional static typing."
+          },
+          {
+            "name": "Node.js",
+            "info": "Node.js is a JavaScript runtime built on Chrome's V8 engine, designed for building scalable network applications."
+          },
+          {
+            "name": "React.js",
+            "info": "React.js is a JavaScript library for building user interfaces, especially single-page applications, by utilizing a component-based architecture."
+          },
+          {
+            "name": "Next.js",
+            "info": "Next.js is a React framework for building server-side rendered and static websites, known for its performance and scalability."
+          },
+          {
+            "name": "Redux",
+            "info": "Redux is a state management library for JavaScript applications, often used with React to handle global application state."
+          },
+          {
+            "name": "HTML",
+            "info": "HTML (HyperText Markup Language) is the standard markup language for creating and structuring content on the web."
+          },
+          {
+            "name": "CSS",
+            "info": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML or XML."
+          },
+          {
+            "name": "SASS",
+            "info": "SASS (Syntactically Awesome Style Sheets) is a CSS preprocessor that allows for variables, nested rules, and reusable mixins, making CSS more maintainable."
+          },
+          {
+            "name": "Material UI",
+            "info": "Material UI is a React component library that implements Google's Material Design for building responsive UIs."
+          },
+          {
+            "name": "Storybook",
+            "info": "Storybook is a UI component development environment for React."
+          },
+          {
+            "name": "React Query",
+            "info": "React Query is a data-fetching library for React that simplifies server state management and asynchronous operations."
+          }
+        ]
+      },
+      {
+        "sectionName": "Backend",
+        "items":  [
+          {
+            "name": "Python",
+            "info": "Python is a high-level, interpreted programming language known for its readability and versatility in web development, data science, and automation."
+          },
+          {
+            "name": "Django",
+            "info": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
+          },
+          {
+            "name": "DRF",
+            "info": "Django Rest Framework (DRF) is a powerful toolkit for building Web APIs in Django, making it easy to develop RESTful services."
+          },
+          {
+            "name": "SQL",
+            "info": "SQL (Structured Query Language) is a standard language for managing and manipulating relational databases."
+          },
+          {
+            "name": "Postgres",
+            "info": "Postgres (PostgreSQL) is an open-source, object-relational database system known for its robustness, scalability, and extensibility."
+          },
+          {
+            "name": "REST API",
+            "info": "A REST API (Representational State Transfer) is an architectural style for building web services, enabling communication between client and server over HTTP."
+          }
+        ]
+      },
+      {
+        "sectionName": "Development Tools",
+        "items": [
+          {
+            "name": "Docker",
+            "info": "Docker is a platform for developing, shipping, and running applications in isolated containers."
+          },
+          {
+            "name": "Git",
+            "info": "Git is a distributed version control system for tracking changes in source code during development."
+          },
+          {
+            "name": "GitHub",
+            "info": "GitHub is a web-based platform for version control and collaborative software development, built on Git."
+          },
+          {
+            "name": "WSL",
+            "info": "WSL (Windows Subsystem for Linux) allows developers to run a Linux distribution alongside Windows for a more versatile development environment."
+          },
+          {
+            "name": "Visual Studio Code",
+            "info": "Visual Studio Code (VS Code) is a lightweight yet powerful code editor developed by Microsoft, with support for debugging, version control, and extensions."
+          }
+        ]
+      },
+      {
+        "sectionName": "Other",
+        "items": [
+          {
+            "name": "SEO",
+            "info": "Search Engine Optimization (SEO) is the practice of enhancing a website to increase its visibility in search engine results."
+          },
+          {
+            "name": "Agile",
+            "info": "Agile is a project management methodology that promotes iterative development, collaboration, and flexibility in responding to change."
+          },
+          {
+            "name": "Jira",
+            "info": "Jira is a project management tool developed by Atlassian, often used for Agile software development and tracking issues."
+          },
+          {
+            "name": "Trello",
+            "info": "Trello is a visual project management tool using boards and cards to organize tasks and workflows."
+          }
+        ]
+      }
+    ]
+  },
+  "Project": {
+    "projectTitle": "Plant Tracker",
+    "imageSrc": "src/assets/PlantTracker.png",
+    "description": "Plant Tracker Project Plant Tracker is a web app where you can store your plants with descriptions, names, photos and last time when it was watered.",
+    "href": "https://plant-tracker-front.vercel.app/"
+  }
+}

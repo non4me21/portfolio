@@ -6,6 +6,8 @@ import MailIcon from '@mui/icons-material/Mail';
 import DiamondIcon from '@mui/icons-material/Diamond';
 import classNames from 'classnames';
 import { useActiveTab } from '../../context/ActiveTabContext';
+import { Divider } from '@mui/material';
+import FileDownloadSharpIcon from '@mui/icons-material/FileDownloadSharp';
 
 export const SideInfo = () => {
 
@@ -13,6 +15,7 @@ export const SideInfo = () => {
 
   return (
     <div className={styles.SideInfo}>
+      <div className={styles.Upper}>
       <div className={styles.PhotoWrapper}>
         <img src="src/assets/main_photo.png" alt='My photo'/>
         <div className={styles.Name}>Kacper Walęga</div>
@@ -31,6 +34,18 @@ export const SideInfo = () => {
           </a>
         </div>
       </div>
+      <div className={styles.CVS}>
+        <a className={styles.CV} href='src/assets/cvs/Kacper Walega PL CV.pdf' download>
+            <img src="src/assets/flags/poland.png" alt="Poland Flag" />
+            <span>CV Polish</span>
+            <FileDownloadSharpIcon className={styles.DownloadIcon} fontSize='small'/>
+        </a>
+        <a className={styles.CV} href='src/assets/cvs/Kacper Walega EN CV.pdf' download>
+            <img src="src/assets/flags/united-kingdom.png" alt="United Kingdom Flag" />
+            <span>CV English</span>
+            <FileDownloadSharpIcon className={styles.DownloadIcon} fontSize='small' />
+        </a>
+      </div>
       <div className={styles.Links}>
         <div className={styles.GitHub}>
           <a href="https://github.com/non4me21" target='_top'>
@@ -45,6 +60,9 @@ export const SideInfo = () => {
           </a>
         </div>
       </div>
+      </div>
+      <Divider flexItem />
+      <div className={styles.Lower}>
       <div className={styles.Tabs}>
         <div 
           className={classNames(styles.Tab, activeTab === 0 && styles.Active)}
@@ -60,6 +78,7 @@ export const SideInfo = () => {
           {activeTab === 1 && <DiamondIcon fontSize='small' />}
           Projects
         </div>
+      </div>
       </div>
     </div>
   )

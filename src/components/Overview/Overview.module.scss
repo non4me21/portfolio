@@ -1,0 +1,35 @@
+@import '@/styles/variables.scss';
+
+.Overview {
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr 1.6fr;
+  grid-template-rows: 1fr max-content;
+  gap: 20px 20px;
+  height: fit-content;
+  grid-template-areas: 
+  "AboutMe Education BasedIn"
+  "Experience TechStack Project";
+
+  .AboutMe {
+    grid-area: AboutMe;
+  }
+  .Education { 
+    grid-area: Education; 
+  }
+  .BasedIn { 
+    grid-area: BasedIn; 
+  }
+  .Experience { 
+    grid-area: Experience; 
+    max-height: 500px;
+  }
+  .TechStack { 
+    grid-area: TechStack; 
+    max-height: 500px;
+  }
+  .Project { 
+    grid-area: Project; 
+    max-height: 500px;
+  }
+}
+

@@ -3,9 +3,10 @@
 .InfoList {
   background-color: $componentBackground;
   border-radius: 10px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  max-height: 100%;
   gap: 5px;
   padding: 10px;
   font-size: 14px;
@@ -17,7 +18,7 @@
   }
 
   *::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
     height: 5px;
   }
 
@@ -35,7 +36,7 @@
   }
 
   .ListElements {
-    overflow-y: scroll;
+    overflow-y: auto;
 
     .List {
       .ListLabel {

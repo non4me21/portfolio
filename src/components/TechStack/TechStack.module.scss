@@ -1,0 +1,72 @@
+@import '@/styles/variables.scss';
+
+.TechStack {
+  background-color: $componentBackground;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 14px;
+  filter: drop-shadow(0px 0px 30px trasparent);
+  transition: filter 0.2s ease-in;
+  max-height: 100%;
+
+  &:hover {
+    filter: drop-shadow(0px 0px 30px $componentShadowColor);
+  }
+
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #5e5e5e;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 16px;  
+  }
+
+  .TechStackList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+
+    .TechStackSection {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .SectionTitle {
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .SectionElements {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        .TechStackItem {
+          padding: 3px 5px;
+          background-color: $secondaryColor;
+          border-radius: 5px;
+
+          &:hover {
+            cursor: help;
+            background-color: $secondaryHoverColor;
+          }
+        }
+      }
+    }
+  }
+}

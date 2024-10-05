@@ -1,0 +1,13 @@
+.MainView {
+  padding: 10px 0;
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: min-content 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 20px; 
+  grid-template-areas: 
+    "SideInfo MainContent"; 
+
+  .SideInfo { grid-area: SideInfo; }
+  .MainContent { grid-area: MainContent; }
+}

@@ -1,8 +1,17 @@
 import './App.scss'
+import { MainView } from './components/MainView/MainView'
 import { ActiveTabProvider } from './context/ActiveTabContext'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient(
+  {
+    defaultOptions: {
+      queries: {
+        staleTime: 1000 * 60, 
+      },
+    },
+  }
+)
 
 function App() {
 
@@ -11,7 +20,7 @@ function App() {
       client={queryClient}
     >
       <ActiveTabProvider>
-        blbalb
+        <MainView />
       </ActiveTabProvider>
     </QueryClientProvider>
   )

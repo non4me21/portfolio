@@ -1,0 +1,43 @@
+@import '@/styles/variables.scss';
+
+.BasedIn {
+  background-color: $componentBackground;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 14px;
+  filter: drop-shadow(0px 0px 30px trasparent);
+  transition: filter 0.2s ease-in;
+
+  &:hover {
+    filter: drop-shadow(0px 0px 30px $componentShadowColor);
+  }
+
+  .Title {
+    font-size: 14px;
+  }
+
+  .TextRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    h1 {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+
+  .MainRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+}
