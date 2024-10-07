@@ -2,11 +2,10 @@
 
 .SideInfo {
   background-color: $componentBackground;
-  height: 100%;
+  height: 800px;
   width: fit-content;
   padding: 10px 20px;
   border-radius: 10px;
-  font-size: 16px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -42,7 +41,7 @@
   }
 
   .Name {
-    font-size: 20px;
+    font-size: $ultraLargeTextSize;
     font-weight: bold;
   }
 
@@ -109,6 +108,55 @@
       &.Active {
         background-color: $secondaryColor;
       }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .SideInfo {
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    height: fit-content;
+  
+
+    .Upper {
+      gap: 20px;
+
+      .PhotoWrapper {
+        img {
+          background-color: $componentBackground;
+          border-radius: 50%;
+        }
+      }
+
+      .MainInfo {
+        background-color: $componentBackground;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .CVS {
+        .CV {
+          background-color: $componentBackground;
+        }
+      }
+
+      .Links {
+        background-color: $componentBackground;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+
+    .Divider {
+      display: none;
+    }
+    .Tab {
+      background-color: $componentBackground;
     }
   }
 }

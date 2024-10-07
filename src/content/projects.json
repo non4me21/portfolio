@@ -1,0 +1,212 @@
+{
+  "ProjectsGrid": {
+    "projects": [
+      {
+        "label": "Plant Tracker (Work in Progress)",
+        "description": "Plant Tracker is a web app for storing and organizing your plants with descriptions, names, photos, and last time when it was watered.",
+        "imageSrc": "src/assets/PlantTracker.png",
+        "href": "https://plant-tracker-front.vercel.app/",
+        "github": "https://github.com/non4me21/plant_tracker",
+        "techStack": [
+          {
+            "sectionName": "Frontend",
+            "items": [
+              {
+                "name": "Next.js",
+                "info": "Next.js is a React framework for building server-side rendered and static websites, known for its performance and scalability."
+              },
+              {
+                "name": "React.js",
+                "info": "React.js is a JavaScript library for building user interfaces, especially single-page applications, by utilizing a component-based architecture."
+              },
+              {
+                "name": "TypeScript",
+                "info": "TypeScript is a superset of JavaScript that adds optional static typing."
+              },
+              {
+                "name": "Node.js",
+                "info": "Node.js is a JavaScript runtime built on Chrome's V8 engine, designed for building scalable network applications."
+              },
+              {
+                "name": "Material UI",
+                "info": "Material UI is a React component library that implements Google's Material Design for building responsive UIs."
+              },
+              {
+                "name": "HTML",
+                "info": "HTML (HyperText Markup Language) is the standard markup language for creating and structuring content on the web."
+              },
+              {
+                "name": "CSS",
+                "info": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML or XML."
+              },
+              {
+                "name": "SASS",
+                "info": "SASS (Syntactically Awesome Style Sheets) is a CSS preprocessor that allows for variables, nested rules, and reusable mixins, making CSS more maintainable."
+              }
+            ]
+          },
+          {
+            "sectionName": "Backend",
+            "items": [
+              {
+                "name": "Python",
+                "info": "Python is a high-level, interpreted programming language known for its readability and versatility in web development, data science, and automation."
+              },
+              {
+                "name": "Django",
+                "info": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
+              },
+              {
+                "name": "DRF",
+                "info": "Django Rest Framework (DRF) is a powerful toolkit for building Web APIs in Django, making it easy to develop RESTful services."
+              },
+              {
+                "name": "SQL",
+                "info": "SQL (Structured Query Language) is a standard language for managing and manipulating relational databases."
+              },
+              {
+                "name": "Postgres",
+                "info": "Postgres (PostgreSQL) is an open-source, object-relational database system known for its robustness, scalability, and extensibility."
+              },
+              {
+                "name": "REST API",
+                "info": "A REST API (Representational State Transfer) is an architectural style for building web services, enabling communication between client and server over HTTP."
+              }
+            ]
+          },
+          {
+            "sectionName": "Development Tools",
+            "items": [
+              {
+                "name": "Docker",
+                "info": "Docker is a platform for developing, shipping, and running applications in isolated containers."
+              },
+              {
+                "name": "WSL",
+                "info": "WSL (Windows Subsystem for Linux) allows developers to run a Linux distribution alongside Windows for a more versatile development environment."
+              },
+              {
+                "name": "Visual Studio Code",
+                "info": "Visual Studio Code (VS Code) is a lightweight yet powerful code editor developed by Microsoft, with support for debugging, version control, and extensions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Portfolio",
+        "description": "Portfolio is a simple, responsive website showcasing my projects, skills, and experiences.",
+        "imageSrc": "src/assets/Portfolio.png",
+        "href": "src/assets/Portfolio.png",
+        "github": "https://github.com/non4me21/portfolio",
+        "techStack": [
+          {
+            "sectionName": "Frontend",
+            "items": [
+              {
+                "name": "React.js",
+                "info": "React.js is a JavaScript library for building user interfaces, especially single-page applications, by utilizing a component-based architecture."
+              },
+              {
+                "name": "TypeScript",
+                "info": "TypeScript is a superset of JavaScript that adds optional static typing."
+              },
+              {
+                "name": "Material UI",
+                "info": "Material UI is a React component library that implements Google's Material Design for building responsive UIs."
+              },
+              {
+                "name": "Storybook",
+                "info": "Storybook is a UI component development environment for React."
+              },
+              {
+                "name": "React Query",
+                "info": "React Query is a data-fetching library for React that simplifies server state management and asynchronous operations."
+              },
+              {
+                "name": "HTML",
+                "info": "HTML (HyperText Markup Language) is the standard markup language for creating and structuring content on the web."
+              },
+              {
+                "name": "CSS",
+                "info": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML or XML."
+              },
+              {
+                "name": "SASS",
+                "info": "SASS (Syntactically Awesome Style Sheets) is a CSS preprocessor that allows for variables, nested rules, and reusable mixins, making CSS more maintainable."
+              }
+            ]
+          },
+          {
+            "sectionName": "Development Tools",
+            "items": [
+              {
+                "name": "WSL",
+                "info": "WSL (Windows Subsystem for Linux) allows developers to run a Linux distribution alongside Windows for a more versatile development environment."
+              },
+              {
+                "name": "Visual Studio Code",
+                "info": "Visual Studio Code (VS Code) is a lightweight yet powerful code editor developed by Microsoft, with support for debugging, version control, and extensions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Users Table with Redux",
+        "description": "Users table with option to filter by column's fields build with React.js and Redux Toolkit",
+        "imageSrc": "src/assets/UsersTable.png",
+        "href": "https://tableredux-mocha.vercel.app/",
+        "github": "https://github.com/non4me21/table-redux",
+        "techStack": [
+          {
+            "sectionName": "Frontend",
+            "items": [
+              {
+                "name": "React.js",
+                "info": "React.js is a JavaScript library for building user interfaces, especially single-page applications, by utilizing a component-based architecture."
+              },
+              {
+                "name": "TypeScript",
+                "info": "TypeScript is a superset of JavaScript that adds optional static typing."
+              },
+              {
+                "name": "Redux",
+                "info": "Redux is a state management library for JavaScript applications, often used with React to handle global application state."
+              },
+              {
+                "name": "Material UI",
+                "info": "Material UI is a React component library that implements Google's Material Design for building responsive UIs."
+              },
+              {
+                "name": "HTML",
+                "info": "HTML (HyperText Markup Language) is the standard markup language for creating and structuring content on the web."
+              },
+              {
+                "name": "CSS",
+                "info": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML or XML."
+              },
+              {
+                "name": "SASS",
+                "info": "SASS (Syntactically Awesome Style Sheets) is a CSS preprocessor that allows for variables, nested rules, and reusable mixins, making CSS more maintainable."
+              }
+            ]
+          },
+          {
+            "sectionName": "Development Tools",
+            "items": [
+              {
+                "name": "WSL",
+                "info": "WSL (Windows Subsystem for Linux) allows developers to run a Linux distribution alongside Windows for a more versatile development environment."
+              },
+              {
+                "name": "Visual Studio Code",
+                "info": "Visual Studio Code (VS Code) is a lightweight yet powerful code editor developed by Microsoft, with support for debugging, version control, and extensions."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

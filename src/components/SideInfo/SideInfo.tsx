@@ -61,24 +61,24 @@ export const SideInfo = () => {
         </div>
       </div>
       </div>
-      <Divider flexItem />
+      <Divider className={styles.Divider} flexItem />
       <div className={styles.Lower}>
-      <div className={styles.Tabs}>
-        <div 
-          className={classNames(styles.Tab, activeTab === 0 && styles.Active)}
-          onClick={() => changeTab(0)}
-        >
-          {activeTab === 0 && <DiamondIcon fontSize='small' />}
-          Overview
+        <div className={styles.Tabs}>
+          <div 
+            className={classNames(styles.Tab, activeTab === 0 && styles.Active)}
+            onClick={() => changeTab(0)}
+          >
+            {activeTab === 0 && <DiamondIcon fontSize='small' />}
+            Overview
+          </div>
+          <div 
+            className={classNames(styles.Tab, activeTab === 1 && styles.Active)}
+            onClick={() => changeTab(1)}
+          >
+            {activeTab === 1 && <DiamondIcon fontSize='small' />}
+            Projects
+          </div>
         </div>
-        <div 
-          className={classNames(styles.Tab, activeTab === 1 && styles.Active)}
-          onClick={() => changeTab(1)}
-        >
-          {activeTab === 1 && <DiamondIcon fontSize='small' />}
-          Projects
-        </div>
-      </div>
       </div>
     </div>
   )

@@ -6,8 +6,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  gap: 10px;
   padding: 10px;
-  font-size: 14px;
   filter: drop-shadow(0px 0px 30px trasparent);
   transition: filter 0.2s ease-in;
   max-height: 100%;
@@ -17,7 +17,7 @@
   }
 
   *::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
     height: 5px;
   }
 
@@ -31,42 +31,7 @@
   }
 
   h1 {
-    font-size: 16px;  
-  }
-
-  .TechStackList {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    overflow-y: auto;
-
-    .TechStackSection {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-
-      .SectionTitle {
-        font-weight: bold;
-        display: flex;
-        align-items: center;
-        gap: 5px;
-      }
-
-      .SectionElements {
-        display: flex;
-        gap: 5px;
-        flex-wrap: wrap;
-        .TechStackItem {
-          padding: 3px 5px;
-          background-color: $secondaryColor;
-          border-radius: 5px;
-
-          &:hover {
-            cursor: help;
-            background-color: $secondaryHoverColor;
-          }
-        }
-      }
-    }
+    font-size: $largeTextSize;  
+    margin: 0;
   }
 }

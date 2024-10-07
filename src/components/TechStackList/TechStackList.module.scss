@@ -1,0 +1,37 @@
+@import '@/styles/variables.scss';
+
+.TechStackList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+
+  .TechStackSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .SectionTitle {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .SectionElements {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      .TechStackItem {
+        padding: 3px 5px;
+        background-color: $secondaryColor;
+        border-radius: 5px;
+
+        &:hover {
+          cursor: help;
+          background-color: $secondaryHoverColor;
+        }
+      }
+    }
+  }
+}
