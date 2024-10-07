@@ -4,7 +4,7 @@ import { ProjectsGrid } from '../ProjectsGrid/ProjectsGrid'
 import { SideInfo } from '../SideInfo/SideInfo'
 import styles from './MainView.module.scss'
 import projectsContent from '../../content/projects.json'
-import vite from '../../../public/vite.svg'
+import vite from '../../../src/assets/flags/poland.png'
 
 export const MainView = () => {
 
