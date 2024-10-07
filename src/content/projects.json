@@ -4,7 +4,7 @@
       {
         "label": "Plant Tracker (Work in Progress)",
         "description": "Plant Tracker is a web app for storing and organizing your plants with descriptions, names, photos, and last time when it was watered.",
-        "imageSrc": "src/assets/PlantTracker.png",
+        "imageSrc": "assets/PlantTracker.png",
         "href": "https://plant-tracker-front.vercel.app/",
         "github": "https://github.com/non4me21/plant_tracker",
         "techStack": [
@@ -96,8 +96,8 @@
       {
         "label": "Portfolio",
         "description": "Portfolio is a simple, responsive website showcasing my projects, skills, and experiences.",
-        "imageSrc": "src/assets/Portfolio.png",
-        "href": "src/assets/Portfolio.png",
+        "imageSrc": "assets/Portfolio.png",
+        "href": "https://portfolio-beige-one-47.vercel.app/",
         "github": "https://github.com/non4me21/portfolio",
         "techStack": [
           {
@@ -155,7 +155,7 @@
       {
         "label": "Users Table with Redux",
         "description": "Users table with option to filter by column's fields build with React.js and Redux Toolkit",
-        "imageSrc": "src/assets/UsersTable.png",
+        "imageSrc": "assets/UsersTable.png",
         "href": "https://tableredux-mocha.vercel.app/",
         "github": "https://github.com/non4me21/table-redux",
         "techStack": [

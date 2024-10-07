@@ -17,7 +17,7 @@ export const SideInfo = () => {
     <div className={styles.SideInfo}>
       <div className={styles.Upper}>
       <div className={styles.PhotoWrapper}>
-        <img src="src/assets/main_photo.png" alt='My photo'/>
+        <img src="assets/main_photo.png" alt='My photo'/>
         <div className={styles.Name}>Kacper Walęga</div>
       </div>
       <div className={styles.MainInfo}>
@@ -36,12 +36,12 @@ export const SideInfo = () => {
       </div>
       <div className={styles.CVS}>
         <a className={styles.CV} href='src/assets/cvs/Kacper Walega PL CV.pdf' download>
-            <img src="src/assets/flags/poland.png" alt="Poland Flag" />
+            <img src="assets/flags/poland.png" alt="Poland Flag" />
             <span>CV Polish</span>
             <FileDownloadSharpIcon className={styles.DownloadIcon} fontSize='small'/>
         </a>
         <a className={styles.CV} href='src/assets/cvs/Kacper Walega EN CV.pdf' download>
-            <img src="src/assets/flags/united-kingdom.png" alt="United Kingdom Flag" />
+            <img src="assets/flags/united-kingdom.png" alt="United Kingdom Flag" />
             <span>CV English</span>
             <FileDownloadSharpIcon className={styles.DownloadIcon} fontSize='small' />
         </a>

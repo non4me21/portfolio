@@ -4,7 +4,6 @@ import styles from './ProjectCard.module.scss'
 
 export const ProjectCard = (project: Project) => {
 
-  console.log(project)
   return (
     <a className={styles.ProjectCard} href={project.href}>
       <div className={styles.ProjectMainInfo}>
