@@ -19,6 +19,7 @@ export const MainView = () => {
         {activeTab === 0 && <Overview />}
         {activeTab === 1 && <ProjectsGrid projects={projectsContent.ProjectsGrid.projects ?? []}/>}
       </div>
+      <img src='public/vite.svg' />
     </div>
   )
 }
