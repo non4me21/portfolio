@@ -185,7 +185,7 @@
   },
   "Project": {
     "projectTitle": "Plant Tracker",
-    "imageSrc": "src/assets/PlantTracker.png",
+    "imageSrc": "./src/assets/PlantTracker.png",
     "description": "Plant Tracker Project Plant Tracker is a web app where you can store your plants with descriptions, names, photos and last time when it was watered.",
     "href": "https://plant-tracker-front.vercel.app/"
   }
