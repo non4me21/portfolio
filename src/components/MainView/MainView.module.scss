@@ -1,3 +1,5 @@
+@import '@/styles/variables.scss';
+
 .MainView {
   padding: 10px 0;
   display: grid; 
@@ -8,6 +10,24 @@
   grid-template-areas: 
     "SideInfo MainContent"; 
 
-  .SideInfo { grid-area: SideInfo; }
+  .SideInfo { 
+    grid-area: SideInfo;
+    max-height: 850px;
+    position: sticky;
+    top: 18px;
+  }
   .MainContent { grid-area: MainContent; }
+}
+
+@media screen and (max-width: $mobile) {
+  .MainView {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .SideInfo {
+      position: relative;
+      top: unset;
+    }
+  }
 }

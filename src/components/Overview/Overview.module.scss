@@ -25,11 +25,39 @@
   }
   .TechStack { 
     grid-area: TechStack; 
+    width: 100%;
     max-height: 500px;
   }
   .Project { 
     grid-area: Project; 
     max-height: 500px;
+  }
+}
+
+@media screen and (max-width: $desktop) {
+  .Overview {
+    grid-template-columns: 2fr 1fr; 
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas: 
+    "AboutMe BasedIn"
+    "Education Education"
+    "Experience Experience"
+    "TechStack TechStack"
+    "Project Project";
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .Overview {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, max-content);
+    grid-template-areas:
+    "AboutMe"
+    "BasedIn"
+    "Education"
+    "Experience"
+    "TechStack"
+    "Project";
   }
 }
 
