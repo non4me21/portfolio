@@ -35,12 +35,12 @@ export const SideInfo = () => {
         </div>
       </div>
       <div className={styles.CVS}>
-        <a className={styles.CV} href='src/assets/cvs/Kacper Walega PL CV.pdf' download>
+        <a className={styles.CV} href='assets/cvs/Kacper Walega PL CV.pdf' download>
             <img src="assets/flags/poland.png" alt="Poland Flag" />
             <span>CV Polish</span>
             <FileDownloadSharpIcon className={styles.DownloadIcon} fontSize='small'/>
         </a>
-        <a className={styles.CV} href='src/assets/cvs/Kacper Walega EN CV.pdf' download>
+        <a className={styles.CV} href='assets/cvs/Kacper Walega EN CV.pdf' download>
             <img src="assets/flags/united-kingdom.png" alt="United Kingdom Flag" />
             <span>CV English</span>
             <FileDownloadSharpIcon className={styles.DownloadIcon} fontSize='small' />
