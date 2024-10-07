@@ -43,6 +43,14 @@
     "Experience Experience"
     "TechStack TechStack"
     "Project Project";
+
+    .Experience {
+      max-height: unset;
+    }
+
+    .TechStack {
+      max-height: unset;
+    }
   }
 }
 

@@ -48,7 +48,7 @@ export const SideInfo = () => {
       </div>
       <div className={styles.Links}>
         <div className={styles.GitHub}>
-          <a href="https://github.com/non4me21" target='_top'>
+          <a href="https://github.com/non4me21" target='_blank'>
             <GitHubIcon fontSize='small'/>
             Github
           </a>
