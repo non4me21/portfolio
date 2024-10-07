@@ -54,7 +54,7 @@ export const SideInfo = () => {
           </a>
         </div>
         <div className={styles.LinkedIn}>
-          <a href="https://www.linkedin.com" target="_blank">
+          <a href="https://www.linkedin.com/in/kacper-wal%C4%99ga-2461a3265/" target="_blank">
             <LinkedInIcon fontSize='small'/>
             LinkedIn
           </a>
