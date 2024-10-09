@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import './App.scss'
 import { MainView } from './components/MainView/MainView'
 import { ActiveTabProvider } from './context/ActiveTabContext'
@@ -16,6 +17,7 @@ const queryClient = new QueryClient(
 function App() {
 
   return (
+    <>
     <QueryClientProvider
       client={queryClient}
     >
@@ -23,6 +25,8 @@ function App() {
         <MainView />
       </ActiveTabProvider>
     </QueryClientProvider>
+    <Analytics/>
+    </>
   )
 }
 
