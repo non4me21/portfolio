@@ -2,6 +2,7 @@ import axios from 'axios';
 import styles from './BasedIn.module.scss';
 import { useQuery } from '@tanstack/react-query';
 import { Skeleton } from '@mui/material';
+import LoadingImage from '../LoadingImage/LoadingImage';
 
 const fetchData = async () => {
   const { data } = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_API_KEY}&q=Wroclaw&aqi=yes`)
@@ -21,8 +22,8 @@ export const BasedIn = () => {
           <Skeleton width={80} />
         </div>
         <div className={styles.MainRow}>
-          <Skeleton width={50} height={40} />
-          <Skeleton variant="circular" width={50} height={50} />
+          <Skeleton width={64} height={64} />
+          <Skeleton variant="circular" width={64} height={64} />
         </div>
       </div>
     );
@@ -40,7 +41,9 @@ export const BasedIn = () => {
       </div>
       <div className={styles.MainRow}>
         <span>{data.current.temp_c}°C</span>
-        <img src={data.current.condition.icon} alt={data.current.condition.text} />
+        <div className={styles.Icon}>
+          <LoadingImage imageSrc={data.current.condition.icon} alt={data.current.condition.text} skeletonHeight='64px'/>
+        </div>
       </div>
     </div>
   )

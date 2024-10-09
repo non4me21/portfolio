@@ -1,0 +1,10 @@
+.LoadingImage {
+  height: inherit;
+  width: inherit;
+  display: none;
+  border-radius: inherit;
+
+  &.Loaded {
+    display: block;
+  }
+}

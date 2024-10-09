@@ -6,8 +6,10 @@ import MailIcon from '@mui/icons-material/Mail';
 import DiamondIcon from '@mui/icons-material/Diamond';
 import classNames from 'classnames';
 import { useActiveTab } from '../../context/ActiveTabContext';
-import { Divider } from '@mui/material';
+import { Divider} from '@mui/material';
 import FileDownloadSharpIcon from '@mui/icons-material/FileDownloadSharp';
+import LoadingImage from '../LoadingImage/LoadingImage';
+
 
 export const SideInfo = () => {
 
@@ -17,7 +19,9 @@ export const SideInfo = () => {
     <div className={styles.SideInfo}>
       <div className={styles.Upper}>
       <div className={styles.PhotoWrapper}>
-        <img src="assets/main_photo.png" alt='My photo'/>
+        <div className={styles.Photo}>
+          <LoadingImage imageSrc="assets/main_photo.png" alt='My photo'/>
+        </div>
         <div className={styles.Name}>Kacper Walęga</div>
       </div>
       <div className={styles.MainInfo}>
@@ -36,12 +40,12 @@ export const SideInfo = () => {
       </div>
       <div className={styles.CVS}>
         <a className={styles.CV} href='assets/cvs/Kacper Walega PL CV.pdf' download>
-            <img src="assets/flags/poland.png" alt="Poland Flag" />
+            <LoadingImage imageSrc='assets/flags/poland.png' alt='Poland Flag' skeletonWidth='16px'/>
             <span>CV Polish</span>
             <FileDownloadSharpIcon className={styles.DownloadIcon} fontSize='small'/>
         </a>
         <a className={styles.CV} href='assets/cvs/Kacper Walega EN CV.pdf' download>
-            <img src="assets/flags/united-kingdom.png" alt="United Kingdom Flag" />
+            <LoadingImage imageSrc="assets/flags/united-kingdom.png" alt="United Kingdom Flag" skeletonWidth='16px'/>
             <span>CV English</span>
             <FileDownloadSharpIcon className={styles.DownloadIcon} fontSize='small' />
         </a>

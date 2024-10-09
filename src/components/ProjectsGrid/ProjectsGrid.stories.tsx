@@ -1,5 +1,5 @@
 import { StoryFn } from '@storybook/react'
-import { ProjectsGrid } from './ProjectsGrid';
+import ProjectsGrid  from './ProjectsGrid';
 
 export default {
   component: ProjectsGrid,

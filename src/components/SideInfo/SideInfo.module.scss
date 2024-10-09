@@ -34,9 +34,10 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    img {
+
+    .Photo {
       height: 200px;
-      width: auto;
+      width: 200px;
     }
   }
 
@@ -125,7 +126,7 @@
       gap: 20px;
 
       .PhotoWrapper {
-        img {
+        .Photo {
           background-color: $componentBackground;
           border-radius: 50%;
         }
