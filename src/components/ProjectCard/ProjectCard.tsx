@@ -6,7 +6,7 @@ import styles from './ProjectCard.module.scss'
 export const ProjectCard = (project: Project) => {
 
   return (
-    <a className={styles.ProjectCard} href={project.href}>
+    <a className={styles.ProjectCard} href={project.href} target="_blank">
       <div className={styles.ProjectMainInfo}>
         <div className={styles.ProjectImage}>
           <LoadingImage imageSrc={project.imageSrc} alt="Project Photo" skeletonHeight='150px'/>
