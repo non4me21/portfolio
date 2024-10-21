@@ -12,8 +12,10 @@ const fetchData = async () => {
 export const BasedIn = () => {
 
   const { data, error, isLoading } = useQuery({ queryKey: ['weather-data'], queryFn: fetchData});
+  console.log(`data: ${data}`)
+  console.log(`error: ${error}`)
 
-  if (isLoading || error) {
+  if (isLoading) {
     return (
       <div className={styles.BasedIn}>
         <div className={styles.Title}>Based In</div>
@@ -29,6 +31,20 @@ export const BasedIn = () => {
     );
   }
 
+  if (error) {
+    return (
+      <div className={styles.BasedIn}>
+        <div className={styles.Title}>Based In</div>
+        <div className={styles.TextRow}>
+          <h1>Wrocław, Poland</h1>
+        </div>
+        <div className={styles.MainRow}>
+          <span className={styles.ErrorInfo}>There is some problem with fetching weather. Sorry :(</span>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={styles.BasedIn}>
       <div className={styles.Title}>Based In</div>
@@ -37,7 +53,7 @@ export const BasedIn = () => {
         <span>{data.current.condition.text}</span>
       </div>
       <div className={styles.MainRow}>
-        <span>{data.current.temp_c}°C</span>
+        <span className={styles.TempInfo}>{data.current.temp_c}°C</span>
         <div className={styles.Icon}>
           <LoadingImage imageSrc={data.current.condition.icon} alt={data.current.condition.text} skeletonHeight='64px'/>
         </div>

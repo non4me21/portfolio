@@ -34,9 +34,16 @@
     justify-content: space-between;
     align-items: center;
 
-    span {
+    .TempInfo {
       font-size: 32px;
       font-weight: bold;
+    }
+
+    .ErrorInfo {
+      height: 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .Icon {
