@@ -168,7 +168,7 @@
                 "info": "A REST API (Representational State Transfer) is an architectural style for building web services, enabling communication between client and server over HTTP."
               },
               {
-                "name": "Extrnal APIs",
+                "name": "External APIs",
                 "info": "External APIs are interfaces from third-party services that enable applications to access their data and functionalities, enhancing capabilities and user experiences."
               }
             ]
@@ -267,7 +267,7 @@
                 "info": "A REST API (Representational State Transfer) is an architectural style for building web services, enabling communication between client and server over HTTP."
               },
               {
-                "name": "Extrnal APIs",
+                "name": "External APIs",
                 "info": "External APIs are interfaces from third-party services that enable applications to access their data and functionalities, enhancing capabilities and user experiences."
               }
             ]
