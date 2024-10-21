@@ -13,7 +13,7 @@ export const BasedIn = () => {
 
   const { data, error, isLoading } = useQuery({ queryKey: ['weather-data'], queryFn: fetchData});
 
-  if (isLoading) {
+  if (isLoading || error) {
     return (
       <div className={styles.BasedIn}>
         <div className={styles.Title}>Based In</div>
@@ -27,9 +27,6 @@ export const BasedIn = () => {
         </div>
       </div>
     );
-  }
-  if (error) {
-    return <div className={styles.BasedIn}>Error: {error.message}</div>
   }
 
   return (
