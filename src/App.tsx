@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import './App.scss'
 import { MainView } from './components/MainView/MainView'
 import { ActiveTabProvider } from './context/ActiveTabContext'
@@ -26,6 +27,7 @@ function App() {
       </ActiveTabProvider>
     </QueryClientProvider>
     <Analytics/>
+    <SpeedInsights />
     </>
   )
 }
