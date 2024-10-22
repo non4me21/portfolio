@@ -157,11 +157,19 @@
           {
             "name": "Visual Studio Code",
             "info": "Visual Studio Code (VS Code) is a lightweight yet powerful code editor developed by Microsoft, with support for debugging, version control, and extensions."
+          },
+          {
+            "name": "Jira",
+            "info": "Jira is a project management tool developed by Atlassian, often used for Agile software development and tracking issues."
+          },
+          {
+            "name": "Trello",
+            "info": "Trello is a visual project management tool using boards and cards to organize tasks and workflows."
           }
         ]
       },
       {
-        "sectionName": "Other",
+        "sectionName": "Soft Skills",
         "items": [
           {
             "name": "SEO",
@@ -172,12 +180,36 @@
             "info": "Agile is a project management methodology that promotes iterative development, collaboration, and flexibility in responding to change."
           },
           {
-            "name": "Jira",
-            "info": "Jira is a project management tool developed by Atlassian, often used for Agile software development and tracking issues."
+            "name": "Team Communication",
+            "info": "Skilled in clear and effective communication within cross-functional teams, collaborating with developers, clients, and stakeholders to achieve project goals."
           },
           {
-            "name": "Trello",
-            "info": "Trello is a visual project management tool using boards and cards to organize tasks and workflows."
+            "name": "Problem-Solving",
+            "info": "Strong analytical abilities to troubleshoot and resolve technical issues efficiently, ensuring smooth project progression."
+          },
+          {
+            "name": "Time Management",
+            "info": "Ability to prioritize tasks and manage multiple projects simultaneously, ensuring deadlines are met without compromising quality."
+          },
+          {
+            "name": "Adaptability",
+            "info": "Quick to adapt to new technologies and project requirements, remaining flexible in fast-paced development environments."
+          },
+          {
+            "name": "Proactivity",
+            "info": "Taking initiative to identify and solve problems independently, constantly looking for ways to improve processes or solutions."
+          },
+          {
+            "name": "Creative Thinking",
+            "info": " Approaching challenges from different angles and proposing innovative solutions to complex problems."
+          },
+          {
+            "name": "Work Under Pressure",
+            "info": "Maintaining high-quality output even in high-stress situations or under tight deadlines, balancing efficiency with accuracy."
+          },
+          {
+            "name": "Fast Learner",
+            "info": "Ability to quickly grasp new technologies, frameworks, and methodologies, continuously expanding knowledge and adapting to evolving project needs."
           }
         ]
       }

@@ -12,8 +12,6 @@ const fetchData = async () => {
 export const BasedIn = () => {
 
   const { data, error, isLoading } = useQuery({ queryKey: ['weather-data'], queryFn: fetchData});
-  console.log(`data: ${data}`)
-  console.log(`error: ${error}`)
 
   if (isLoading) {
     return (
