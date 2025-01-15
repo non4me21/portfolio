@@ -1,7 +1,7 @@
 {
   "AboutMe": {
     "title": "About Me",
-    "content": " I am a Fullstack Developer with experience in Django (Python) and Wagtail on backend and Next.js/React.js on fronted. I am passionate about creating fast, accessible applications that delight users and meet their needs. Named Time magazine's Person of the Year in 2006"
+    "content": " I am a Fullstack Developer with experience in Django (Python) and Wagtail on backend and Next.js/React.js on frontend. I am passionate about creating fast, accessible applications that delight users and meet their needs. Named Time magazine's Person of the Year in 2006"
   },
   "Education": {
     "title": "Education",
