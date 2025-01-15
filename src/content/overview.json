@@ -1,7 +1,7 @@
 {
   "AboutMe": {
     "title": "About Me",
-    "content": " I am a Fullstack Developer with experience in Django (Python) and Next.js/React.js. I am passionate about creating fast, accessible applications that delight users and meet their needs. Named Time magazine's Person of the Year in 2006"
+    "content": " I am a Fullstack Developer with experience in Django (Python) and Wagtail on backend and Next.js/React.js on fronted. I am passionate about creating fast, accessible applications that delight users and meet their needs. Named Time magazine's Person of the Year in 2006"
   },
   "Education": {
     "title": "Education",
@@ -25,6 +25,14 @@
   "WorkExperience": {
     "title": "Work Experience",
     "listItems": [
+      {
+        "label": "Associate Software Engineer @ OANDA",
+        "description": [
+          "December 2024 - Present",
+          "Kraków - remote",
+          "I'm responsible for providing content creators with various components written in Wagtail, creating new pages and transfering new pages to OANDA"
+        ]
+      },
       {
         "label": "Fullstack Developer @ FXMAG",
         "description": [
@@ -85,6 +93,10 @@
             "info": "Material UI is a React component library that implements Google's Material Design for building responsive UIs."
           },
           {
+            "name": "Tailwind CSS",
+            "info": "Tailwind CSS is a utility-first CSS framework for rapidly building custom designs directly in your markup, offering flexibility and speed in styling."
+          },
+          {
             "name": "Storybook",
             "info": "Storybook is a UI component development environment for React."
           },
@@ -112,6 +124,10 @@
           {
             "name": "Python",
             "info": "Python is a high-level, interpreted programming language known for its readability and versatility in web development, data science, and automation."
+          },
+          {
+            "name": "Wagtail",
+            "info": "Wagtail is a modern, open-source CMS built on Django, designed for creating flexible and intuitive content management experiences with a focus on performance and customization."
           },
           {
             "name": "Django",
